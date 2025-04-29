@@ -41,16 +41,16 @@ public class stack<T> {
         intStack.push(20);
         intStack.push(30);
 
-        System.out.println("Top element: " + intStack.peek()); // Output: Top element: 30
-        System.out.println("Popped element: " + intStack.pop()); // Output: Popped element: 30
-        System.out.println("Current size: " + intStack.size()); // Output: Current size: 2
+        System.out.println("Top element: " + intStack.peek()); 
+        System.out.println("Popped element: " + intStack.pop()); 
+        System.out.println("Current size: " + intStack.size());
 
         stack<String> stringStack = new stack<>();
         stringStack.push("Hello");
         stringStack.push("World");
 
-        System.out.println("Top string: " + stringStack.peek()); // Output: Top string: World
-        System.out.println("Popped string: " + stringStack.pop()); // Output: Popped string: World
-        System.out.println("Is string stack empty? " + stringStack.isEmpty()); // Output: Is string stack empty? false
+        System.out.println("Top string: " + stringStack.peek()); 
+        System.out.println("Popped string: " + stringStack.pop()); 
+        System.out.println("Is string stack empty? " + stringStack.isEmpty()); 
     }
 }
