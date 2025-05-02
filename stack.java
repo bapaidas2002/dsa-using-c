@@ -49,8 +49,5 @@ public class stack<T> {
         stringStack.push("Hello");
         stringStack.push("World");
 
-        System.out.println("Top string: " + stringStack.peek()); 
-        System.out.println("Popped string: " + stringStack.pop()); 
-        System.out.println("Is string stack empty? " + stringStack.isEmpty()); 
     }
 }
